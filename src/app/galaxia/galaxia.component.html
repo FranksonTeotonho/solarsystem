@@ -1,0 +1,7 @@
+<header>
+    <h1>Sistema solar</h1>
+  </header>
+  <main>
+      <a routerLink="/cadastrar">Cadastrar planeta</a>
+      <solar-planeta *ngFor ="let planeta of listaPlanetas" [dados] = "planeta"></solar-planeta>
+  </main>
